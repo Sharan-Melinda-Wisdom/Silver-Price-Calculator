@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 st.title("Silver Price Calculator")
-data_hist=pd.read_csv("C:\\Sharan\\CHRIST\\T3\\APP\\historical_silver_price.csv")
-data_sales=pd.read_csv("C:\\Sharan\\CHRIST\\T3\\APP\\state_wise_silver_purchased_kg.csv")
+data_hist=pd.read_csv("historical_silver_price.csv")
+data_sales=pd.read_csv("state_wise_silver_purchased_kg.csv")
 
 st.header("Silver Price Calculator")
 
@@ -69,4 +69,5 @@ except Exception as e:
     
     
     
+
 
